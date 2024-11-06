@@ -6,6 +6,7 @@ public class Main {
         Watering
         Sunlight
         If plant is healthy or not
+        Animals/pollinators
         Other factors?
     Tell if plant is harmful
      */

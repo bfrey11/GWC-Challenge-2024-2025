@@ -9,6 +9,8 @@ public class Main {
         Animals/pollinators
         Other factors?
     Tell if plant is harmful
+    Plant identification
+    Growing Timeline/lifespan
      */
     public static void main(String[] args) {
         System.out.println("Test");

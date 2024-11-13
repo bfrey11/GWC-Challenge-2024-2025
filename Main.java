@@ -1,6 +1,8 @@
 public class Main {
     /*
     Features!
+    Sustainability Score
+        plant benefits
     Tell how to care for plants:
         Soil type
         Watering

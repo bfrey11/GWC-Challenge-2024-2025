@@ -10,7 +10,10 @@ public class Layout extends JPanel implements ActionListener {
 
     @Override
     public void paintComponent(Graphics g) {
-
+        g.setColor(Color.decode("#ffffff"));
+        g.setFont(new Font("Arial", Font.BOLD, 25));
+        g.drawString("(App Name)",25,25);
+        g.fillRect(30,50,300,480);
     }
 
     @Override

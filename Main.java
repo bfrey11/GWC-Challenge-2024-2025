@@ -4,6 +4,8 @@ import java.awt.*;
 public class Main {
     /*
     Features!
+    Sustainability Score
+        plant benefits
     Tell how to care for plants:
         Soil type
         Watering
@@ -12,6 +14,8 @@ public class Main {
         Animals/pollinators
         Other factors?
     Tell if plant is harmful
+    Plant identification
+    Growing Timeline/lifespan
      */
 
     public static void initializeJFrame(JFrame jf){

@@ -1,3 +1,6 @@
+import javax.swing.*;
+import java.awt.*;
+
 public class Main {
     /*
     Features!
@@ -10,8 +13,23 @@ public class Main {
         Other factors?
     Tell if plant is harmful
      */
-    public static void main(String[] args) {
-        System.out.println("Test");
-        System.out.println("Test");
+
+    public static void initializeJFrame(JFrame jf){
+        jf.getContentPane().setBackground(Color.black);
+        jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        jf.setSize(800, 600);
+        jf.setLocationRelativeTo(null);
+        jf.setTitle("GWC Challenge");
+        jf.setVisible(true);
+    }
+
+    public static void main(String [] args){
+
+        JFrame jf = new JFrame();
+        initializeJFrame(jf);
+
+        Layout obj = new Layout();
+        jf.add(obj);
+
     }
 }

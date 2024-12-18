@@ -19,7 +19,7 @@ public class Main {
      */
 
     public static void initializeJFrame(JFrame jf){
-        jf.getContentPane().setBackground(Color.black);
+        jf.getContentPane().setBackground(Color.decode("#004400"));
         jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         jf.setSize(800, 600);
         jf.setLocationRelativeTo(null);

@@ -14,6 +14,7 @@ public class Layout extends JPanel implements ActionListener {
         g.setFont(new Font("Arial", Font.BOLD, 25));
         g.drawString("(App Name...)",25,25);
         g.fillRect(30,50,300,480);
+        g.drawBytes(byte[] data, int offset, int length, int x, int y)
     }
 
     @Override

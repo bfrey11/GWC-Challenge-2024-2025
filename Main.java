@@ -35,5 +35,7 @@ public class Main {
         Layout obj = new Layout();
         jf.add(obj);
 
+        PlantLogic logic = new PlantLogic(obj);
+
     }
 }

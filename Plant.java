@@ -10,7 +10,7 @@ public class Plant {
     private String[] pollen; //pollinators
 
     public Plant(String name) {
-
+        this.name = name;
     }
 
     //would use ai to identify plant
@@ -18,4 +18,6 @@ public class Plant {
         String plant = "plant";
         return plant;
     }
+
+    public String getName() {return name;}
 }

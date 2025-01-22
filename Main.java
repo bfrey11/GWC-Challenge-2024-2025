@@ -8,7 +8,7 @@ public class Main {
         plant benefits
     Tell how to care for plants:
         Soil type
-        Watering
+        Watering: Water once a week
         Sunlight
         If plant is healthy or not
         Animals/pollinators
@@ -17,6 +17,8 @@ public class Main {
     Plant identification
     Growing Timeline/lifespan
      */
+    Tomatoes need 6-8 hours of sunlight per day.
+    Tomatoes need to be watered consistently, avoiding overhead watering to avoid fungal diseases
 
     public static void initializeJFrame(JFrame jf){
         jf.getContentPane().setBackground(Color.decode("#004400"));

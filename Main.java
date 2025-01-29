@@ -16,9 +16,11 @@ public class Main {
     Tell if plant is harmful
     Plant identification
     Growing Timeline/lifespan
-     */
+
     Tomatoes need 6-8 hours of sunlight per day.
     Tomatoes need to be watered consistently, avoiding overhead watering to avoid fungal diseases
+    */
+
 
     public static void initializeJFrame(JFrame jf){
         jf.getContentPane().setBackground(Color.decode("#004400"));

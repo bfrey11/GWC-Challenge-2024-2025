@@ -13,7 +13,7 @@ public class Plant {
         this.name = name;
     }
 
-    //would use ai to identify plant
+    //would use AI to identify plant
     public static String identify() {
         String plant = "plant";
         return plant;

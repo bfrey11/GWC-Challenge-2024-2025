@@ -6,21 +6,31 @@ import javax.swing.*;
 public class Layout extends JPanel implements ActionListener {
     private String plantName;
     private Timer timer;
+    private String[] info;
     public Layout() {
         timer = new Timer(25,this);
         timer.start();
         timer.addActionListener(this);
     }
 
+    public void setInfo(String[] info) {
+        this.info = info;
+        System.out.println(info);
+    }
+
     @Override
     public void paintComponent(Graphics g) {
         g.setColor(Color.decode("#ffffff"));
-        g.setFont(new Font("Arial", Font.BOLD, 25));
+        g.setFont(new Font("Helvetica", Font.BOLD, 25));
         g.drawString("PlantByte",25,25);
         g.fillRect(30,50,300,480);
 
         g.drawString("Name: " + plantName,400,75);
-        System.out.println(plantName);
+        g.drawString("Water: " + info[0],400,150);
+        g.drawString("Sunlight: " + info[1],400,225);
+        g.drawString("Harm: " + info[2],400,300);
+        g.drawString("Health: " + info[3],400,375);
+        //System.out.println(plantName);
     }
 
     @Override

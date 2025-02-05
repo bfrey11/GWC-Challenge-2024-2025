@@ -4,16 +4,13 @@ import java.util.HashMap;
 import java.util.Scanner;
 
 public class PlantLogic {
-    private Plant[] plants;
     private HashMap<String,String[]> dataMap;
 
     public PlantLogic(Layout layout) {
         dataMap = new HashMap<>();
         makeHash();
-        Plant plant = new Plant(Plant.identify(),dataMap);
-        layout.setPlantName(plant.getName());
-        layout.setInfo(plant.getInfo());
-
+        layout.setPlantName("Tomatoes");
+        layout.setInfo(dataMap.get("Tomatoes"));
     }
 
     public void makeHash() {
